@@ -14,11 +14,22 @@ public class Aluno {
 	
 	public enum STATUS{
 		APROVADO,
-		REPROVADO
+		REPROVADO,
+		RECUSADO
 	}
 	
-	public double calculaMediaAluno() {
-		double media=
+	public enum MATRICULA{
+	    MATRICULADO,
+	    PENDENTE,
+	    RECUSADO
+	}
+	
+	public double calcularMediaAluno() {
+		double mediaAluno=0;
+
+	    mediaAluno=(this.nota1+this.nota2+this.nota3)/3;
+	    return mediaAluno;
+
 	}
 
 	public double getNota1() {
