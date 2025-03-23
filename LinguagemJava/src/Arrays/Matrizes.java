@@ -43,6 +43,7 @@ public class Matrizes {
 		for(int j1=0; j1 <4; j1++) {
 			System.out.println((j1+1) + " - " +notas[i][j1]);
 		}
+		
 		System.out.println("Média...: "+mediaAluno + " - " +statusAluno);
 		
 	}
