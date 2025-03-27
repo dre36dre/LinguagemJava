@@ -15,6 +15,19 @@ public class ArrayListCarros{
 
         carros.set(1,"Fusion");
 
-        
+        System.out.println(carros);
+
+        carros.remove("KA");
+
+        System.err.println(carros);
+
+        carros.clear();
+
+        if(carros.isEmpty()){
+            System.err.println("Esta vazio");
+        }
+  carros.add(JOptionane)
     }
 }
+
+//Continuar a pártir dos 15 minutos da aula 7c de Collections
