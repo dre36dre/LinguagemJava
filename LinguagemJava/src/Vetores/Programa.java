@@ -1,4 +1,4 @@
-public class Program {
+public class Programa {
  public static void main(String[] args){
     Vetor vetor= new Vetor(10);
 
