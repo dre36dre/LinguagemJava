@@ -15,4 +15,9 @@ public class Vetor{
        }
        return false;
         }
+
+public int tamanho(){
+return this.tamanho;
+}
+
 }        
