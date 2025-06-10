@@ -1,17 +1,18 @@
 public class Vetor{
 
     private String[] elementos;
-
+    private int tamanho;
     public Vetor(int capacidade){
         this.elementos=new String[capacidade];
+        this.tamanho=0;
     }
-    public void adicionar(String elemento){
-        for(int i=0;i < elementos.length;i++){
-            if(this.elementos[i]==null){
-                this.elementos=elemento;
-                break;
-            }
+
+    public boolean adicionar(String elemento){
+       if(tamanho < elementos.length){
+        elementos[tamanho]=elemento;
+        tamanho++;
+        return true;
+       }
+       return false;
         }
-        if
-    }
-}
+}        
