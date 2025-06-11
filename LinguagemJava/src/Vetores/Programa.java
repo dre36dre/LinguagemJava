@@ -7,5 +7,7 @@ public class Programa {
     vetor.adiciona("elemento 3");
     
  System.out.println(vetor.tamanho());
- } 
+ System.out;println(vetor.toString());
+ }
+
 } 

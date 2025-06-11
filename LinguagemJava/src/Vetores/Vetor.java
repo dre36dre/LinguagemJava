@@ -48,7 +48,7 @@ public String toString(){
         s.append(this.elementos[this.tamanho-1]);
     }
     s.append("]");
-    return Arrays.toString(elementos);
+    return s.toString();
 }
 
 }        
