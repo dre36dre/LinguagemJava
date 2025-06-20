@@ -1,0 +1,17 @@
+// Lambdas sempre esta atrelada a uma interface funcional
+interface Taxi{
+    void reservar();// Apenas um método abstrato
+}
+
+public class Main {
+
+    public static void main(String[] args){
+
+        //() parametros - -> e o corpo da implementação
+        Taxi taxi= () -> {
+            System.out.println("Taxi reservado");
+        };
+
+        taxi.reservar();
+    }
+}
